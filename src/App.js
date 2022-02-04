@@ -1,10 +1,12 @@
 import "./app.scss"
-// import Home from "./pages/home/Home";
+import Register from "./pages/register/Register";
+import Home from "./pages/home/Home";
+// import { Watch } from "@material-ui/icons";
 import Watch from "./pages/watch/Watch";
 
 
 const App =()=>{
-  return <Watch/>
+  return <Register/>
 }
 
 export default App;
